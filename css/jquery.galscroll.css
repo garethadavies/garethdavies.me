@@ -1,0 +1,34 @@
+/* work carousel ------------------------------------------------------------- */
+
+div.work-imac { background:url(../img/imac.jpg) no-repeat; width:640px; height:539px; }
+div.work-ipad { background:url(../img/ipad.jpg) no-repeat; width:640px; height:429px; }
+div.work-iphone { background:url(../img/iphone.jpg) no-repeat; width:640px; height:475px; }
+div.work-laptop { background:url(../img/laptop.jpg) no-repeat; width:640px; height:493px; }
+div.work-print { background:#fff; width:640px; height:500px; }
+
+h3.work-sub-header { margin:0 0 1.6em 0; padding:0; font-size:1.4em; font-weight:lighter; }
+
+div.work-imac .jqGSContainer { position:relative; width:640px; height:539px; }
+div.work-imac .jqGSContainer .jqGSImgContainer { position:relative; top:27px; left:28px; }
+
+div.work-laptop .jqGSContainer { position:relative; width:640px; height:493px; }
+div.work-laptop .jqGSContainer .jqGSImgContainer { position:relative; top:19px; left:94px; }
+
+div.work-iphone .jqGSContainer { position:relative; width:640px; height:475px; }
+div.work-iphone .jqGSContainer .jqGSImgContainer { position:relative; top:72px; left:179px; }
+
+div.work-ipad .jqGSContainer { position:relative; width:640px; height:429px; }
+div.work-ipad .jqGSContainer .jqGSImgContainer { position:relative; top:37px; left:147px; }
+
+div.work-print .jqGSContainer { position:relative; width:640px; height:500px; }
+div.work-print .jqGSContainer .jqGSImgContainer { position:relative; top:0; left:0; }
+
+.jqGSContainer .jqGSImgContainer ul { padding:0; margin:0; position:relative; list-style:none; }
+.jqGSContainer .jqGSImgContainer ul li { padding:0; margin:0; position:relative; float:left; }
+
+.jqGSContainer .jqGSPagination { height:30px; width:640px; position:absolute; top:-52px; left:550px; }
+.jqGSContainer .jqGSPagination ul { padding:10px 0; margin:0; list-style:none; }
+.jqGSContainer .jqGSPagination ul li { padding:0; float:left; text-align:center; }
+.jqGSContainer .jqGSPagination ul li a { padding:0 0 4px 0; color:#000; text-decoration:none; display:block; width:20px; font-size:1.2em; }
+.jqGSContainer .jqGSPagination ul li a.selected, .jqGSContainer .jqGSPagination ul li a.selected:hover { background:#000; color:#fff; cursor:default; }
+.jqGSContainer .jqGSPagination ul li a:hover { background:#000; color:#fff; }
